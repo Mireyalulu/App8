@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.Page2">
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ScrollView>
+                <StackLayout>
+                    <Label Text= "Datos Peronales" TextColor="Aqua" Font="25"/>
+                    <Entry x:Name="txtnombre" Placeholder="Nombre" TextColor="Purple"/>
+                    <Entry x:Name="txtapellido" Placeholder="Apellido" TextColor="Purple"/>
+                    <Entry x:Name="txtdireccion" Placeholder="Direccion" TextColor="Purple"/>
+                    <Entry x:Name="txttelefono" Placeholder="Telefono" TextColor="Purple"/>
+
+                    <Label Text="Datos Escolares" TextColor="Aqua" Font="25"/>
+                    <Entry x:Name="txtcarrera" Placeholder="Carrera" TextColor="Purple"/>
+                    <Entry x:Name="txtsemestre" Placeholder="Semestre" TextColor="Purple"/>
+                    <Entry x:Name="txtmatricula" Placeholder="Matricula" TextColor="Purple"/>
+
+                    <Label Text="Datos Sociales" TextColor="Aqua" Font="25"/>
+                    <Entry x:Name="txtcorreo" Placeholder="Correo" TextColor="Purple"/>
+                    <Entry x:Name="txtgithub" Placeholder="Github" TextColor="Purple"/>
+
+                    <Button x:Name="txtRecolectar" Text="Guardar" Clicked="datos" BackgroundColor="Aqua" />
+                    <Button x:Name="txtRecolectar1" Text="calculadora" Clicked="Button_Clicked1" BackgroundColor="Aqua" />
+
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
